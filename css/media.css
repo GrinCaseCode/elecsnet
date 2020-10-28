@@ -331,6 +331,18 @@ line-height: 15px;
     	margin-bottom: 20px;
     	font-weight: 700;
     }
+    .checkbox label > span:before,
+     .radio:not(.radio_block) label > span:before,
+    .checkbox label > span:after, 
+    .radio:not(.radio_block) label > span:after {
+    	top: -1px;
+    }
+    .line-block_thrind p {
+    	margin-bottom: 7px;
+    }
+    .line-block_thrind {
+    	padding-bottom: 30px;
+    }
 }
 
 /* Small Devices, Tablets */
